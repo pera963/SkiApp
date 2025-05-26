@@ -9,13 +9,9 @@ SkiApp is a simple application built using Java Spring Boot. It serves as a demo
 
 ⚙️ Technologies Used
 Java 17+
-
 Spring Boot
-
 Spring Data JPA
-
 MySQL (or H2)
-
 Maven
 
 ┌────────────┐       ┌────────────┐       ┌──────────────┐
@@ -24,8 +20,8 @@ Maven
       │
       ▼
   HTTP Request
+
+
 Controller – Handles HTTP requests and returns responses.
-
 Service – Contains business logic and coordinates data operations.
-
 Repository – Interfaces directly with the database using JPA.
