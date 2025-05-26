@@ -1,6 +1,8 @@
 German
 
-SkiApp wurde in Java Spring entwickelt. Es ist ein kleines Programm, das ich erstellt habe, um die Prinzipien und die Reihenfolge von Controller, Service und Repository zu veranschaulichen.
+🏔️ SkiApp – Java Spring Projekt
+SkiApp ist eine einfache Anwendung, die mit Java Spring Boot entwickelt wurde. Sie dient als Demonstration des architektonischen Ablaufs und der Verantwortlichkeiten zwischen den Schichten Controller, Service und Repository.
+Das Projekt ist zu Lernzwecken gedacht und veranschaulicht den grundlegenden Aufbau und die Logik einer typischen Spring-basierten Webanwendung.
 
 English
 
