@@ -4,4 +4,28 @@ SkiApp wurde in Java Spring entwickelt. Es ist ein kleines Programm, das ich ers
 
 English
 
-SkiApp is made in Java Spring. It is a small program that I made to show the principles and order of Controller, Service and Repository.
+🏔️ SkiApp – Java Spring Project
+SkiApp is a simple application built using Java Spring Boot. It serves as a demonstration of the architectural flow and responsibilities between the Controller, Service, and Repository layers. The project is intended for learning purposes and illustrates the basic structure and logic behind a typical Spring-based web application.
+
+⚙️ Technologies Used
+Java 17+
+
+Spring Boot
+
+Spring Data JPA
+
+MySQL (or H2)
+
+Maven
+
+┌────────────┐       ┌────────────┐       ┌──────────────┐
+│ Controller │─────▶│  Service   │─────▶│  Repository  │
+└────────────┘       └────────────┘       └──────────────┘
+      │
+      ▼
+  HTTP Request
+Controller – Handles HTTP requests and returns responses.
+
+Service – Contains business logic and coordinates data operations.
+
+Repository – Interfaces directly with the database using JPA.
